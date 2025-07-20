@@ -21,8 +21,6 @@ Full framework docs live in the [docs](./docs) directory. All components are wri
 
 Additional docs for each open-core package live under the `packages/` directory. The `@growthub/schemas` and `@growthub/primitives` packages are versioned on npm starting at `v1.0.0-alpha`. Check their changelogs for upgrade notes.
 
-Infrastructure details, ASCII wireframes and artifact indexes are documented in [docs/infra-overview.md](./docs/infra-overview.md).
-
 ## Contributing
 
 **Agents**: Read the [Agent Contribution Directive](./AGENT-CONTRIBUTION-DIRECTIVE.md) for the complete development protocol including the First Directive, LAPD compliance, and coordination patterns.
