@@ -1,4 +1,4 @@
-# 🚀 Marketing OS - Agent-Native Marketing Automation Platform
+# 🚀 Marketing OS - Agent-Native Marketing Automation Platform by Growthub
 
 <div align="center">
 
