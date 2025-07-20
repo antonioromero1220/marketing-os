@@ -31,7 +31,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## 📋 Overview
 
-Marketing OS is an **agent-native platform** that provides production-ready patterns for building sophisticated marketing automation systems. Extracted from enterprise systems processing **thousands of marketing campaigns daily**, this platform offers battle-tested coordination protocols, intelligent decomposition engines, and comprehensive brand management capabilities.
+Marketing OS ia what powers Growthub an **agent-native platform** that provides production-ready patterns for building sophisticated marketing automation systems. Extracted from enterprise systems processing **thousands of marketing campaigns daily**, this platform offers battle-tested coordination protocols, intelligent decomposition engines, and comprehensive brand management capabilities.
 
 ### 🎯 **Built for AI Agents**
 
