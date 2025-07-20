@@ -1,0 +1,41 @@
+
+
+> @growthub/brand-kit@1.0.0 build /Users/antonio/gh-app/packages/brand-kit
+> tsup
+
+[34mCLI[39m Building entry: {"index":"src/index.ts","data":"src/data.ts","assets":"src/assets.ts","validation":"src/validation.ts"}
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.0
+[34mCLI[39m Using tsup config: /Users/antonio/gh-app/packages/brand-kit/tsup.config.ts
+[34mCLI[39m Target: es2020
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist/index.js          [22m[32m36.56 KB[39m
+[32mESM[39m [1mdist/assets.js         [22m[32m9.61 KB[39m
+[32mESM[39m [1mdist/data.js           [22m[32m10.70 KB[39m
+[32mESM[39m [1mdist/validation.js     [22m[32m16.04 KB[39m
+[32mESM[39m [1mdist/index.js.map      [22m[32m73.79 KB[39m
+[32mESM[39m [1mdist/data.js.map       [22m[32m22.13 KB[39m
+[32mESM[39m [1mdist/validation.js.map [22m[32m30.60 KB[39m
+[32mESM[39m [1mdist/assets.js.map     [22m[32m19.60 KB[39m
+[32mESM[39m ⚡️ Build success in 41ms
+[32mCJS[39m [1mdist/data.cjs           [22m[32m12.77 KB[39m
+[32mCJS[39m [1mdist/assets.cjs         [22m[32m11.18 KB[39m
+[32mCJS[39m [1mdist/index.cjs          [22m[32m39.63 KB[39m
+[32mCJS[39m [1mdist/validation.cjs     [22m[32m17.35 KB[39m
+[32mCJS[39m [1mdist/index.cjs.map      [22m[32m73.92 KB[39m
+[32mCJS[39m [1mdist/data.cjs.map       [22m[32m22.21 KB[39m
+[32mCJS[39m [1mdist/assets.cjs.map     [22m[32m19.67 KB[39m
+[32mCJS[39m [1mdist/validation.cjs.map [22m[32m30.66 KB[39m
+[32mCJS[39m ⚡️ Build success in 42ms
+DTS Build start
+DTS ⚡️ Build success in 2587ms
+DTS dist/index.d.ts       1.59 KB
+DTS dist/assets.d.ts      7.26 KB
+DTS dist/validation.d.ts  5.03 KB
+DTS dist/data.d.ts        11.18 KB
+DTS dist/index.d.cts      1.59 KB
+DTS dist/assets.d.cts     7.26 KB
+DTS dist/validation.d.cts 5.03 KB
+DTS dist/data.d.cts       11.18 KB

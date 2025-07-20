@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "bundler",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "preserve",
+      "incremental": true,
+      "plugins": [
+        {
+          "name": "next"
+        }
+      ],
+      "paths": {
+        "@/*": ["./apps/growthub-app/src/*"]
+      }
+    },
+    "include": [
+      "apps/growthub-app/next-env.d.ts", 
+      "apps/growthub-app/**/*.ts", 
+      "apps/growthub-app/**/*.tsx", 
+      "apps/growthub-app/.next/types/**/*.ts",
+      "packages/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules", 
+      "devScripts", 
+      "apps/growthub-app/supabase/functions",
+      "**/node_modules",
+      "**/.next"
+    ]
+  }
+  

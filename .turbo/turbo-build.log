@@ -1,0 +1,196 @@
+
+
+> growthub-app@1.0.0 build /Users/antonio/gh-app/apps/growthub-app
+> next build
+
+   [1m[38;2;173;127;168m▲ Next.js 15.1.6[39m[22m
+   - Environments: .env.local
+
+ [37m[1m [22m[39m Creating an optimized production build ...
+<w> [1m[33m[webpack.cache.PackFileCacheStrategy] Serializing big strings (108kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)[39m[22m
+
+[1m[33mwarn[39m[22m - The class `duration-[350ms]` is ambiguous and matches multiple utilities.
+[1m[33mwarn[39m[22m - If this is content and not a class, replace it with `duration-&lsqb;350ms&rsqb;` to silence this warning.
+
+[1m[33mwarn[39m[22m - The class `duration-[600ms]` is ambiguous and matches multiple utilities.
+[1m[33mwarn[39m[22m - If this is content and not a class, replace it with `duration-&lsqb;600ms&rsqb;` to silence this warning.
+
+[1m[33mwarn[39m[22m - The class `duration-[700ms]` is ambiguous and matches multiple utilities.
+[1m[33mwarn[39m[22m - If this is content and not a class, replace it with `duration-&lsqb;700ms&rsqb;` to silence this warning.
+
+[1m[33mwarn[39m[22m - The class `duration-[800ms]` is ambiguous and matches multiple utilities.
+[1m[33mwarn[39m[22m - If this is content and not a class, replace it with `duration-&lsqb;800ms&rsqb;` to silence this warning.
+ [33m[1m⚠[22m[39m Compiled with warnings
+
+../../node_modules/.pnpm/require-in-the-middle@7.5.2/node_modules/require-in-the-middle/index.js
+Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
+
+Import trace for requested module:
+../../node_modules/.pnpm/require-in-the-middle@7.5.2/node_modules/require-in-the-middle/index.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation@0.57.2_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation/build/esm/platform/node/instrumentation.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation@0.57.2_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation/build/esm/platform/node/index.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation@0.57.2_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation/build/esm/platform/index.js
+../../node_modules/.pnpm/@opentelemetry+instrumentation@0.57.2_@opentelemetry+api@1.9.0/node_modules/@opentelemetry/instrumentation/build/esm/index.js
+../../node_modules/.pnpm/inngest@3.39.1_express@5.1.0_next@15.1.6_@opentelemetry+api@1.9.0_react-dom@19.1.0_react@19.1_wvfcoh5rpasgy72nfjmde2vswe/node_modules/inngest/components/execution/otel/util.js
+../../node_modules/.pnpm/inngest@3.39.1_express@5.1.0_next@15.1.6_@opentelemetry+api@1.9.0_react-dom@19.1.0_react@19.1_wvfcoh5rpasgy72nfjmde2vswe/node_modules/inngest/components/execution/otel/middleware.js
+../../node_modules/.pnpm/inngest@3.39.1_express@5.1.0_next@15.1.6_@opentelemetry+api@1.9.0_react-dom@19.1.0_react@19.1_wvfcoh5rpasgy72nfjmde2vswe/node_modules/inngest/experimental.js
+../../node_modules/.pnpm/@inngest+realtime@0.3.1_express@5.1.0_next@15.1.6_@opentelemetry+api@1.9.0_react-dom@19.1.0_r_3dl3tgczxtuslheyif2mwmruyy/node_modules/@inngest/realtime/dist/middleware.js
+../../node_modules/.pnpm/@inngest+realtime@0.3.1_express@5.1.0_next@15.1.6_@opentelemetry+api@1.9.0_react-dom@19.1.0_r_3dl3tgczxtuslheyif2mwmruyy/node_modules/@inngest/realtime/dist/index.js
+./src/lib/inngest/client.ts
+./src/app/api/inngest/route.ts
+
+[?25l [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m ⨯ ESLint: Config (unnamed): Key "plugins": Cannot redefine plugin "@typescript-eslint".
+[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Linting and checking validity of types     [32m[1m✓[22m[39m Linting and checking validity of types 
+[?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G[?25h [33m[1m⚠[22m[39m Using edge runtime on a page currently disables static generation for that page
+[?25l [36m.[39m [2K[1G [36m..[39m [2K[1G[?25h    [32m[1m✓[22m[39m Collecting page data 
+[?25l [37m[1m [22m[39m Generating static pages (0/79)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/79)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages (74/79)  [36m[==  ][39m[2K[1G[?25h [32m[1m✓[22m[39m Generating static pages (79/79)
+[Server Auth] Session retrieval failed: Error: Dynamic server usage: Route /ads-gallery couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at v (.next/server/chunks/9979.js:1:62358)
+    at f (.next/server/chunks/8187.js:1:4844)
+    at c (.next/server/app/api/admin-v2/dashboard-stats/route.js:1:5112)
+    at d (.next/server/app/api/admin-v2/dashboard-stats/route.js:1:5547)
+    at m (.next/server/app/ads-gallery/page.js:1:26081)
+    at stringify (<anonymous>) {
+  description: "Route /ads-gallery couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+  digest: 'DYNAMIC_SERVER_USAGE'
+}
+[?25l [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[?25l [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G[?25h [37m[1m [22m[39m Collecting build traces     [32m[1m✓[22m[39m Collecting build traces 
+[2K[1G[?25h [37m[1m [22m[39m Finalizing page optimization     [32m[1m✓[22m[39m Finalizing page optimization 
+
+[4mRoute (app)[24m                                        [4mSize[24m     [4mFirst Load JS[24m
+┌ ƒ /                                              983 B           [37m[1m107 kB[22m[39m
+├ ƒ /_not-found                                    988 B           [37m[1m107 kB[22m[39m
+├ ƒ /ads-gallery                                   10.3 kB         [37m[1m223 kB[22m[39m
+├ ƒ /api/admin-v2/dashboard-stats                  393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/admin/dashboard-stats                     393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/agent-jobs                                393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/agent-jobs/status                         393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/agent-jobs/sync-from-image-job            393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/agent-jobs/ugc-content-generator          393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/agent-jobs/update-outcome                 393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/analyze-image                             393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/auth/check-admin                          393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/auth/create-subscription                  393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/auth/email                                393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/auth/refresh                              393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/auth/reset-password                       393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/auth/session                              393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/auth/sign-out                             393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/auto-pilot/agent-jobs                     393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/auto-pilot/agent-jobs/status              393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/auto-pilot/check-usage                    393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/auto-pilot/threads                        393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/brand-settings                            393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/brand-settings/[id]                       393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/brand-settings/assets                     393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/check-refinement-and-create-message  393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/create-refined-output                393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/creative-brief                       393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/deep-research                        393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/email-section-generator              393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/generate-copy                        393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/generate-image                       393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/generate-image/check-limits          393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/generate-image/force-process         393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/generate-image/single/v2             393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/generate-image/status                393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/generate-image/test-connection       393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/lifestyle-image-generator            393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/marketing-strategy                   393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/persist-refinement-image             393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/product-image-generator              393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/refine-image-edge                    393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/refine-image-edge/v2                 393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/refine-image/process                 393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/refine-image/status                  393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/sms-copywriting                      393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/social-media-post-generator          393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/static-ads-concept                   393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/static-ads-concept/poll-status       393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/thread-management                    393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/thread-management/[threadId]         393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/thread-management/export/[threadId]  393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/update-refinement-status             393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/video-generation                     393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/chat/voice-script                         393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/config/ngrok                              393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/content-library/assets                    393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/content-library/create-upload             393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/content-library/images                    393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/content-library/process-video             393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/content-library/video-status              393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/content-library/videos                    393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/crm/bulk-sync-trials                      393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/crm/sync-free-trial                       393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/crm/trial-status-sync                     393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/debug/check-videos                        393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/debug/env                                 393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/debug/simple-status                       393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/debug/test-video-block                    393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/feature-flags                             393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/gallery/user-images                       393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/image-proxy                               393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/inngest                                   393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/inngest/get-token                         393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/internal/create-test-subscription         393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/internal/jwt-exchange                     393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/mux/asset-status                          393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/mux/create-asset                          393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/mux/enable-static-rendition               393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/secure-image                              393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/shopify/auth                              393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/shopify/billing/callback                  393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/shopify/billing/oauth-callback            393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/shopify/billing/start-trial               393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/shopify/portal-url                        393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/shopify/webhooks                          393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/supabase-health                           393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/test-compiler                             393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/v2.3/autopilot/run                        393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/v2/decomposition/brand-analysis           393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/v2/decomposition/complexity-assessment    393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/v2/decomposition/intent-analysis          393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/video-analysis/extract-frames             393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/video-generation/generate                 393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/video-generation/remix-videos             393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/video-generation/status/[jobId]           393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/video-generation/voiceover                393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/video/download-clip                       393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/video/extract-frames                      393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/video/fix-broken-videos                   393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/video/force-fix                           393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/video/get-video-url                       393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/video/job-status                          393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/video/recover-mux-asset                   393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/voice/preview                             393 B           [37m[1m106 kB[22m[39m
+├ ƒ /api/webhooks/mux                              393 B           [37m[1m106 kB[22m[39m
+├ ƒ /auth                                          6.33 kB         [37m[1m163 kB[22m[39m
+├ ƒ /auth/callback                                 3.18 kB         [37m[1m146 kB[22m[39m
+├ ƒ /auth/reset-password                           3.79 kB         [37m[1m160 kB[22m[39m
+├ ƒ /auto-pilot-v2                                 26.8 kB         [37m[1m300 kB[22m[39m
+├ ƒ /auto-pilot-v2/thread/[threadId]               1 kB            [37m[1m225 kB[22m[39m
+├ ƒ /dashboard                                     4.38 kB         [37m[1m168 kB[22m[39m
+├ ƒ /dashboard/admin-v2                            4.41 kB         [37m[1m128 kB[22m[39m
+├ ƒ /dashboard/agents                              1.7 kB          [37m[1m213 kB[22m[39m
+├ ƒ /dashboard/brand-settings                      14.1 kB         [37m[1m197 kB[22m[39m
+├ ƒ /dashboard/content-library                     11.3 kB         [37m[1m221 kB[22m[39m
+├ ƒ /dashboard/examples/chat-assistant             3.19 kB         [37m[1m117 kB[22m[39m
+├ ƒ /dashboard/jobs                                1.7 kB          [37m[1m213 kB[22m[39m
+├ ƒ /dashboard/marketing-asset-analyzer            20.2 kB         [37m[1m196 kB[22m[39m
+├ ƒ /dashboard/marketing-asset-analyzer/results    164 kB          [37m[1m331 kB[22m[39m
+├ ƒ /dashboard/settings                            9.88 kB         [37m[1m227 kB[22m[39m
+├ ƒ /dashboard/upgrade                             2.83 kB         [37m[1m214 kB[22m[39m
+├ ƒ /dashboard/workflow                            1.73 kB         [37m[1m219 kB[22m[39m
+├ ƒ /dashboard/workflow/chat                       87 kB           [37m[1m347 kB[22m[39m
+└ ƒ /reset-password                                6.59 kB         [37m[1m163 kB[22m[39m
++ First Load JS shared by all                      [37m[1m106 kB[22m[39m
+  ├ chunks/009d54f5-798e6782df4a3c33.js            53 kB
+  ├ chunks/311-b62bc80ecf154a89.js                 50.7 kB
+  └ other shared chunks (total)                    2.1 kB
+
+
+ƒ Middleware                                       [37m[1m62 kB[22m[39m
+
+ƒ  (Dynamic)  server-rendered on demand
+
+[?25h

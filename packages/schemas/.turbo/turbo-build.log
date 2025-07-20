@@ -1,0 +1,101 @@
+
+
+> @growthub/schemas@1.0.0 build /Users/antonio/gh-app/packages/schemas
+> tsup
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mThe condition "types" here will never be used as it comes after both "import" and "require"[0m [package.json]
+
+    package.json:14:6:
+[37m      14 │       [32m"types"[37m: "./dist/index.d.ts"
+         ╵       [32m~~~~~~~[0m
+
+  The "import" condition comes earlier and will be used for all "import" statements:
+
+    package.json:12:6:
+[37m      12 │       [32m"import"[37m: "./dist/index.js",
+         ╵       [32m~~~~~~~~[0m
+
+  The "require" condition comes earlier and will be used for all "require" calls:
+
+    package.json:13:6:
+[37m      13 │       [32m"require"[37m: "./dist/index.cjs",
+         ╵       [32m~~~~~~~~~[0m
+
+[34mCLI[39m Building entry: src/agent.ts, src/brand.ts, src/compiler.ts, src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.0
+[34mCLI[39m Using tsup config: /Users/antonio/gh-app/packages/schemas/tsup.config.ts
+[34mCLI[39m Target: es2020
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mCJS[39m Build start
+
+[90m[[90m5:47:03 AM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mThe condition "types" here will never be used as it comes after both "import" and "require"[0m [package.json]
+
+    package.json:14:6:
+[37m      14 │       [32m"types"[37m: "./dist/index.d.ts"
+         ╵       [32m~~~~~~~[0m
+
+  The "import" condition comes earlier and will be used for all "import" statements:
+
+    package.json:12:6:
+[37m      12 │       [32m"import"[37m: "./dist/index.js",
+         ╵       [32m~~~~~~~~[0m
+
+  The "require" condition comes earlier and will be used for all "require" calls:
+
+    package.json:13:6:
+[37m      13 │       [32m"require"[37m: "./dist/index.cjs",
+         ╵       [32m~~~~~~~~~[0m
+
+
+
+
+[90m[[90m5:47:03 AM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mThe condition "types" here will never be used as it comes after both "import" and "require"[0m [package.json]
+
+    package.json:14:6:
+[37m      14 │       [32m"types"[37m: "./dist/index.d.ts"
+         ╵       [32m~~~~~~~[0m
+
+  The "import" condition comes earlier and will be used for all "import" statements:
+
+    package.json:12:6:
+[37m      12 │       [32m"import"[37m: "./dist/index.js",
+         ╵       [32m~~~~~~~~[0m
+
+  The "require" condition comes earlier and will be used for all "require" calls:
+
+    package.json:13:6:
+[37m      13 │       [32m"require"[37m: "./dist/index.cjs",
+         ╵       [32m~~~~~~~~~[0m
+
+
+
+DTS Build start
+[32mCJS[39m [1mdist/index.cjs        [22m[32m179.30 KB[39m
+[32mCJS[39m [1mdist/agent.cjs        [22m[32m125.02 KB[39m
+[32mCJS[39m [1mdist/compiler.cjs     [22m[32m134.45 KB[39m
+[32mCJS[39m [1mdist/brand.cjs        [22m[32m122.62 KB[39m
+[32mCJS[39m [1mdist/index.cjs.map    [22m[32m432.26 KB[39m
+[32mCJS[39m [1mdist/agent.cjs.map    [22m[32m303.71 KB[39m
+[32mCJS[39m [1mdist/compiler.cjs.map [22m[32m331.45 KB[39m
+[32mCJS[39m [1mdist/brand.cjs.map    [22m[32m298.45 KB[39m
+[32mCJS[39m ⚡️ Build success in 887ms
+[32mESM[39m [1mdist/brand.js        [22m[32m122.39 KB[39m
+[32mESM[39m [1mdist/agent.js        [22m[32m124.63 KB[39m
+[32mESM[39m [1mdist/compiler.js     [22m[32m133.89 KB[39m
+[32mESM[39m [1mdist/index.js        [22m[32m177.77 KB[39m
+[32mESM[39m [1mdist/agent.js.map    [22m[32m303.70 KB[39m
+[32mESM[39m [1mdist/brand.js.map    [22m[32m298.45 KB[39m
+[32mESM[39m [1mdist/compiler.js.map [22m[32m331.45 KB[39m
+[32mESM[39m [1mdist/index.js.map    [22m[32m432.25 KB[39m
+[32mESM[39m ⚡️ Build success in 887ms
+DTS ⚡️ Build success in 1826ms
+DTS dist/index.d.ts     120.05 KB
+DTS dist/agent.d.ts     36.33 KB
+DTS dist/brand.d.ts     33.52 KB
+DTS dist/compiler.d.ts  141.50 KB
+DTS dist/index.d.cts    120.05 KB
+DTS dist/agent.d.cts    36.33 KB
+DTS dist/brand.d.cts    33.52 KB
+DTS dist/compiler.d.cts 141.50 KB

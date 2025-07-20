@@ -1,0 +1,47 @@
+
+
+> @growthub/compiler-core@1.0.0 build /Users/antonio/gh-app/packages/compiler-core
+> tsup
+
+[34mCLI[39m Building entry: {"index":"src/index.ts","decomposition":"src/decomposition.ts","orchestration":"src/orchestration.ts","csi":"src/csi.ts","validation":"src/validation.ts"}
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.0
+[34mCLI[39m Using tsup config: /Users/antonio/gh-app/packages/compiler-core/tsup.config.ts
+[34mCLI[39m Target: es2020
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist/decomposition.cjs     [22m[32m6.19 KB[39m
+[32mCJS[39m [1mdist/orchestration.cjs     [22m[32m6.99 KB[39m
+[32mCJS[39m [1mdist/validation.cjs        [22m[32m10.63 KB[39m
+[32mCJS[39m [1mdist/csi.cjs               [22m[32m7.59 KB[39m
+[32mCJS[39m [1mdist/index.cjs             [22m[32m28.63 KB[39m
+[32mCJS[39m [1mdist/decomposition.cjs.map [22m[32m9.37 KB[39m
+[32mCJS[39m [1mdist/orchestration.cjs.map [22m[32m10.94 KB[39m
+[32mCJS[39m [1mdist/csi.cjs.map           [22m[32m12.04 KB[39m
+[32mCJS[39m [1mdist/validation.cjs.map    [22m[32m16.86 KB[39m
+[32mCJS[39m [1mdist/index.cjs.map         [22m[32m50.57 KB[39m
+[32mCJS[39m ⚡️ Build success in 78ms
+[32mESM[39m [1mdist/index.js             [22m[32m23.91 KB[39m
+[32mESM[39m [1mdist/decomposition.js     [22m[32m4.45 KB[39m
+[32mESM[39m [1mdist/orchestration.js     [22m[32m5.03 KB[39m
+[32mESM[39m [1mdist/csi.js               [22m[32m5.72 KB[39m
+[32mESM[39m [1mdist/validation.js        [22m[32m8.59 KB[39m
+[32mESM[39m [1mdist/index.js.map         [22m[32m50.38 KB[39m
+[32mESM[39m [1mdist/decomposition.js.map [22m[32m9.29 KB[39m
+[32mESM[39m [1mdist/orchestration.js.map [22m[32m10.84 KB[39m
+[32mESM[39m [1mdist/csi.js.map           [22m[32m11.94 KB[39m
+[32mESM[39m [1mdist/validation.js.map    [22m[32m16.77 KB[39m
+[32mESM[39m ⚡️ Build success in 81ms
+DTS Build start
+DTS ⚡️ Build success in 2273ms
+DTS dist/index.d.ts          2.18 KB
+DTS dist/decomposition.d.ts  10.31 KB
+DTS dist/orchestration.d.ts  6.13 KB
+DTS dist/csi.d.ts            6.76 KB
+DTS dist/validation.d.ts     5.79 KB
+DTS dist/index.d.cts         2.18 KB
+DTS dist/decomposition.d.cts 10.31 KB
+DTS dist/orchestration.d.cts 6.13 KB
+DTS dist/csi.d.cts           6.76 KB
+DTS dist/validation.d.cts    5.79 KB

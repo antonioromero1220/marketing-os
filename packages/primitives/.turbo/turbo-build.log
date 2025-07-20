@@ -1,0 +1,107 @@
+
+
+> @growthub/primitives@1.0.0 build /Users/antonio/gh-app/packages/primitives
+> tsup
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mThe condition "types" here will never be used as it comes after both "import" and "require"[0m [package.json]
+
+    package.json:14:6:
+[37m      14 │       [32m"types"[37m: "./dist/index.d.ts"
+         ╵       [32m~~~~~~~[0m
+
+  The "import" condition comes earlier and will be used for all "import" statements:
+
+    package.json:12:6:
+[37m      12 │       [32m"import"[37m: "./dist/index.js",
+         ╵       [32m~~~~~~~~[0m
+
+  The "require" condition comes earlier and will be used for all "require" calls:
+
+    package.json:13:6:
+[37m      13 │       [32m"require"[37m: "./dist/index.cjs",
+         ╵       [32m~~~~~~~~~[0m
+
+[34mCLI[39m Building entry: src/agent.ts, src/brand.ts, src/index.ts, src/utils.ts, src/validation.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.0
+[34mCLI[39m Using tsup config: /Users/antonio/gh-app/packages/primitives/tsup.config.ts
+[34mCLI[39m Target: es2020
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mCJS[39m Build start
+
+[90m[[90m5:47:05 AM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mThe condition "types" here will never be used as it comes after both "import" and "require"[0m [package.json]
+
+    package.json:14:6:
+[37m      14 │       [32m"types"[37m: "./dist/index.d.ts"
+         ╵       [32m~~~~~~~[0m
+
+  The "import" condition comes earlier and will be used for all "import" statements:
+
+    package.json:12:6:
+[37m      12 │       [32m"import"[37m: "./dist/index.js",
+         ╵       [32m~~~~~~~~[0m
+
+  The "require" condition comes earlier and will be used for all "require" calls:
+
+    package.json:13:6:
+[37m      13 │       [32m"require"[37m: "./dist/index.cjs",
+         ╵       [32m~~~~~~~~~[0m
+
+
+
+
+[90m[[90m5:47:05 AM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mThe condition "types" here will never be used as it comes after both "import" and "require"[0m [package.json]
+
+    package.json:14:6:
+[37m      14 │       [32m"types"[37m: "./dist/index.d.ts"
+         ╵       [32m~~~~~~~[0m
+
+  The "import" condition comes earlier and will be used for all "import" statements:
+
+    package.json:12:6:
+[37m      12 │       [32m"import"[37m: "./dist/index.js",
+         ╵       [32m~~~~~~~~[0m
+
+  The "require" condition comes earlier and will be used for all "require" calls:
+
+    package.json:13:6:
+[37m      13 │       [32m"require"[37m: "./dist/index.cjs",
+         ╵       [32m~~~~~~~~~[0m
+
+
+
+[32mESM[39m [1mdist/agent.js          [22m[32m2.45 KB[39m
+[32mESM[39m [1mdist/brand.js          [22m[32m2.94 KB[39m
+[32mESM[39m [1mdist/index.js          [22m[32m10.46 KB[39m
+[32mESM[39m [1mdist/utils.js          [22m[32m3.39 KB[39m
+[32mESM[39m [1mdist/validation.js     [22m[32m1.27 KB[39m
+[32mESM[39m [1mdist/brand.js.map      [22m[32m6.03 KB[39m
+[32mESM[39m [1mdist/index.js.map      [22m[32m22.55 KB[39m
+[32mESM[39m [1mdist/utils.js.map      [22m[32m7.57 KB[39m
+[32mESM[39m [1mdist/agent.js.map      [22m[32m5.31 KB[39m
+[32mESM[39m [1mdist/validation.js.map [22m[32m3.00 KB[39m
+[32mESM[39m ⚡️ Build success in 104ms
+[32mCJS[39m [1mdist/agent.cjs          [22m[32m3.85 KB[39m
+[32mCJS[39m [1mdist/brand.cjs          [22m[32m4.06 KB[39m
+[32mCJS[39m [1mdist/utils.cjs          [22m[32m4.75 KB[39m
+[32mCJS[39m [1mdist/index.cjs          [22m[32m12.75 KB[39m
+[32mCJS[39m [1mdist/validation.cjs     [22m[32m2.47 KB[39m
+[32mCJS[39m [1mdist/agent.cjs.map      [22m[32m5.40 KB[39m
+[32mCJS[39m [1mdist/brand.cjs.map      [22m[32m6.09 KB[39m
+[32mCJS[39m [1mdist/index.cjs.map      [22m[32m22.76 KB[39m
+[32mCJS[39m [1mdist/utils.cjs.map      [22m[32m7.67 KB[39m
+[32mCJS[39m [1mdist/validation.cjs.map [22m[32m3.07 KB[39m
+[32mCJS[39m ⚡️ Build success in 107ms
+DTS Build start
+DTS ⚡️ Build success in 2320ms
+DTS dist/index.d.ts       1.25 KB
+DTS dist/agent.d.ts       1.60 KB
+DTS dist/brand.d.ts       775.00 B
+DTS dist/utils.d.ts       1.73 KB
+DTS dist/validation.d.ts  998.00 B
+DTS dist/index.d.cts      1.25 KB
+DTS dist/agent.d.cts      1.60 KB
+DTS dist/brand.d.cts      775.00 B
+DTS dist/utils.d.cts      1.73 KB
+DTS dist/validation.d.cts 998.00 B

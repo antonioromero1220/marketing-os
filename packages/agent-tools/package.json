@@ -1,0 +1,88 @@
+{
+  "name": "@growthub/agent-tools",
+  "version": "1.0.2",
+  "description": "Agent coordination utilities and KV lock management for Growthub Marketing OS",
+  "keywords": [
+    "marketing",
+    "ai",
+    "agents",
+    "coordination",
+    "kv-lock",
+    "task-management",
+    "openai",
+    "function-calling"
+  ],
+  "homepage": "https://github.com/antonioromero1220/marketing-os/tree/main/packages/agent-tools#readme",
+  "bugs": {
+    "url": "https://github.com/antonioromero1220/marketing-os/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonioromero1220/marketing-os.git",
+    "directory": "packages/agent-tools"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Growthub Team",
+    "email": "opensource@growthub.ai",
+    "url": "https://growthub.ai"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./kv": {
+      "types": "./dist/kv.d.ts",
+      "import": "./dist/kv.js",
+      "require": "./dist/kv.cjs"
+    },
+    "./tasks": {
+      "types": "./dist/tasks.d.ts",
+      "import": "./dist/tasks.js",
+      "require": "./dist/tasks.cjs"
+    },
+    "./coordination": {
+      "types": "./dist/coordination.d.ts",
+      "import": "./dist/coordination.js",
+      "require": "./dist/coordination.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "src/**/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@growthub/schemas": "workspace:*",
+    "@growthub/compiler-core": "workspace:*",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
+    "eslint": "^9.14.0",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+} 

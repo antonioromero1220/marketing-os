@@ -1,0 +1,41 @@
+
+
+> @growthub/agent-tools@1.0.0 build /Users/antonio/gh-app/packages/agent-tools
+> tsup
+
+[34mCLI[39m Building entry: {"index":"src/index.ts","kv":"src/kv.ts","tasks":"src/tasks.ts","coordination":"src/coordination.ts"}
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.0
+[34mCLI[39m Using tsup config: /Users/antonio/gh-app/packages/agent-tools/tsup.config.ts
+[34mCLI[39m Target: es2020
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist/index.cjs            [22m[32m27.65 KB[39m
+[32mCJS[39m [1mdist/kv.cjs               [22m[32m7.77 KB[39m
+[32mCJS[39m [1mdist/tasks.cjs            [22m[32m11.33 KB[39m
+[32mCJS[39m [1mdist/coordination.cjs     [22m[32m10.24 KB[39m
+[32mCJS[39m [1mdist/kv.cjs.map           [22m[32m12.81 KB[39m
+[32mCJS[39m [1mdist/tasks.cjs.map        [22m[32m19.52 KB[39m
+[32mCJS[39m [1mdist/index.cjs.map        [22m[32m51.02 KB[39m
+[32mCJS[39m [1mdist/coordination.cjs.map [22m[32m17.41 KB[39m
+[32mCJS[39m ⚡️ Build success in 29ms
+[32mESM[39m [1mdist/index.js            [22m[32m25.11 KB[39m
+[32mESM[39m [1mdist/tasks.js            [22m[32m9.88 KB[39m
+[32mESM[39m [1mdist/coordination.js     [22m[32m8.80 KB[39m
+[32mESM[39m [1mdist/kv.js               [22m[32m6.23 KB[39m
+[32mESM[39m [1mdist/index.js.map        [22m[32m50.88 KB[39m
+[32mESM[39m [1mdist/tasks.js.map        [22m[32m19.46 KB[39m
+[32mESM[39m [1mdist/coordination.js.map [22m[32m17.34 KB[39m
+[32mESM[39m [1mdist/kv.js.map           [22m[32m12.73 KB[39m
+[32mESM[39m ⚡️ Build success in 30ms
+DTS Build start
+DTS ⚡️ Build success in 1044ms
+DTS dist/index.d.ts         1.58 KB
+DTS dist/coordination.d.ts  5.29 KB
+DTS dist/kv.d.ts            4.19 KB
+DTS dist/tasks.d.ts         9.68 KB
+DTS dist/index.d.cts        1.58 KB
+DTS dist/coordination.d.cts 5.29 KB
+DTS dist/kv.d.cts           4.19 KB
+DTS dist/tasks.d.cts        9.68 KB

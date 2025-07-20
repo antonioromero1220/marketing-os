@@ -1,0 +1,91 @@
+{
+  "name": "@growthub/compiler-core",
+  "version": "1.0.2",
+  "description": "Core decomposition engine and orchestration logic for Growthub Marketing OS",
+  "keywords": [
+    "marketing",
+    "ai",
+    "decomposition",
+    "orchestration", 
+    "compiler",
+    "csi",
+    "agent-coordination"
+  ],
+  "homepage": "https://github.com/antonioromero1220/marketing-os/tree/main/packages/compiler-core#readme",
+  "bugs": {
+    "url": "https://github.com/antonioromero1220/marketing-os/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonioromero1220/marketing-os.git",
+    "directory": "packages/compiler-core"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Growthub Team",
+    "email": "opensource@growthub.ai",
+    "url": "https://growthub.ai"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./decomposition": {
+      "types": "./dist/decomposition.d.ts", 
+      "import": "./dist/decomposition.js",
+      "require": "./dist/decomposition.cjs"
+    },
+    "./orchestration": {
+      "types": "./dist/orchestration.d.ts",
+      "import": "./dist/orchestration.js", 
+      "require": "./dist/orchestration.cjs"
+    },
+    "./csi": {
+      "types": "./dist/csi.d.ts",
+      "import": "./dist/csi.js",
+      "require": "./dist/csi.cjs"
+    },
+    "./validation": {
+      "types": "./dist/validation.d.ts",
+      "import": "./dist/validation.js",
+      "require": "./dist/validation.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "src/**/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@growthub/schemas": "workspace:*",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
+    "eslint": "^9.14.0",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+} 

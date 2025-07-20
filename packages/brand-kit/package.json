@@ -1,0 +1,86 @@
+{
+  "name": "@growthub/brand-kit",
+  "version": "1.0.2",
+  "description": "Brand data coordination and asset management utilities for Growthub Marketing OS",
+  "keywords": [
+    "marketing",
+    "brand",
+    "assets",
+    "brand-kit",
+    "color-palette",
+    "messaging",
+    "brand-management"
+  ],
+  "homepage": "https://github.com/antonioromero1220/marketing-os/tree/main/packages/brand-kit#readme",
+  "bugs": {
+    "url": "https://github.com/antonioromero1220/marketing-os/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonioromero1220/marketing-os.git",
+    "directory": "packages/brand-kit"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Growthub Team",
+    "email": "opensource@growthub.ai",
+    "url": "https://growthub.ai"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./data": {
+      "types": "./dist/data.d.ts",
+      "import": "./dist/data.js",
+      "require": "./dist/data.cjs"
+    },
+    "./assets": {
+      "types": "./dist/assets.d.ts",
+      "import": "./dist/assets.js",
+      "require": "./dist/assets.cjs"
+    },
+    "./validation": {
+      "types": "./dist/validation.d.ts",
+      "import": "./dist/validation.js",
+      "require": "./dist/validation.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "src/**/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@growthub/schemas": "workspace:*",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
+    "eslint": "^9.14.0",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+} 
