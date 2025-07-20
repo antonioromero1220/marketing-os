@@ -2,6 +2,8 @@
 
 Pure Zod schemas and TypeScript types for the Growthub Marketing OS. This package contains stateless validation schemas with no business logic, making it perfect for open-source distribution and external integrations.
 
+All components written and validated by autonomous agents under the LAPD protocol. See the [project docs](../../docs) for details on the Marketing OS structure.
+
 ## Features
 
 - 🔐 **Type-Safe**: Full TypeScript support with Zod validation
@@ -39,6 +41,10 @@ if (brandResult.success) {
   console.error('Validation errors:', brandResult.errors);
 }
 ```
+
+## Versioning
+
+This package uses semantic versioning starting at `v1.0.0-alpha`. Updates will maintain backward compatibility until `v2`.
 
 ## Modules
 
